@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <!-- <li><a href="form.html">form</a></li> -->
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="audio-video.html">Audio-video</a></li>
+                <li><a href="non-semantic.html">non-semantic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>welcome to my pitha Ghor</h2>
+    <form action="">
+        <label for="name">your name
+            <input type="text" placeholder="write your name">
+        </label>
+        
+        <label for="email">your email
+            <input type="email" placeholder="write your email">
+        </label>
+        
+        <!-- <label for="number">your cell number</label>
+        <input type="number" placeholder="write your number">  nornamally ei bhabeo likhe-->
+
+        <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="pori">
+                <input type="radio" name="pitha" id="pori">
+                pori
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>select one or more vorta</legend>
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">
+                sorisha
+            </label>
+            <label for="sotki">
+                <input type="checkbox" name="vorta" id="sotki">
+                sotki
+            </label>
+            <label for="dhoneya">
+                <input type="checkbox" name="vorta" id="dhoneya">
+                dhoneya
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
